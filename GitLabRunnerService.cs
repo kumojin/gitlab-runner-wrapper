@@ -49,7 +49,7 @@ namespace GitlabRunnerWrapper
                         "--registration-token " + appSettings["gitlab_registration_token"] + " " +
                         "--tag-list " + appSettings["gitlab_tags"] + " " +
                         "--locked=\"false\" " +
-                        "--executor shell;" + 
+                        "--executor " + appSettings["gitlab_executor"] + ";" + 
                 "C:\\GitLab-Runner\\gitlab-runner.exe install;" +
                 "C:\\GitLab-Runner\\gitlab-runner.exe start";
 

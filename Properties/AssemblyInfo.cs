@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("gitlab-runnner-wrapper")]
+[assembly: AssemblyTitle("gitlab-runner-wrapper")]
 [assembly: AssemblyDescription("Gitlab runner service wrapper for windows. It download, install and configure the runner")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Solutions Kumojin Inc.")]
-[assembly: AssemblyProduct("gitlab-runnner-wrapper")]
+[assembly: AssemblyProduct("gitlab-runner-wrapper")]
 [assembly: AssemblyCopyright("Copyright © Solutions Kumojin Inc. 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
